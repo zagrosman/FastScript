@@ -22,6 +22,6 @@ python sdf_to_pdb.py <sdf_file>
 
 # How to run 2DSDF2pdb.py
 
-You can run it using the previous commands. Please note that this script accepts 2D sdf files instead of 3D sdf files and the written codes have been modified a little bit. 
+You can run it using the previous commands. Please note that this script accepts 2D sdf files instead of 3D sdf files and the written codes have been modified a little bit. Please check [this file](https://github.com/zagrosman/FastScript/blob/master/SDF2PDB/2DSDF2pdb.py) to run this script. 
 
 

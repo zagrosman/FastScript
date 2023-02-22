@@ -1,6 +1,11 @@
 # How to convert pdb2pdbqt file?
 
-You can use this script to convert your pdb files into docking pdbqt inputs. First, you should install **mgltools and ADT** on your system. After installation, add the mgltools path to the script. 
+You can use this script to convert your pdb files into docking pdbqt inputs. First, you should install **mgltools and ADT** on your system. After installation, add the mgltools path to the script. you should modify the following line within this script:
+
+```
+"/path/to/mgltools_xxx/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py"
+```
+Add your target path to this perl script and then run it. 
 
 In this script, we first get the input PDB file from the command line argument ($ARGV[0]). We then use File::Basename to get the base name of the input file and append ".pdbqt" to it to get the output file name. We then use system to run prepare_ligand4.py from AutoDockTools to convert the PDB to PDBQT, with the following options:
 

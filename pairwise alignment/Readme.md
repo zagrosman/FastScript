@@ -8,3 +8,9 @@ To use the script, save it as `protein_alignment.py` and run it from the command
 ```
 python3 protein_alignment.py <protein1_sequence> <protein2_sequence>
 ```
+
+or 
+
+```
+python protein_alignment.py <protein1_sequence> <protein2_sequence>
+```

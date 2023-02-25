@@ -10,4 +10,4 @@
 
 
 # How to run script_name.py?
-You can run this script in PyMOL by saving it as a text file with a ".py" extension and then running the command run `script_name.py` in the PyMOL command line. Be sure to replace "receptor.pdb" and "ligand.pdb" with the actual names of your receptor and ligand PDB files.
+You can run this script in PyMOL by saving it as a text file with a ".py" extension and then running the command run `H-bonds.py` in the PyMOL command line. Be sure to replace "receptor.pdb" and "ligand.pdb" with the actual names of your receptor and ligand PDB files.

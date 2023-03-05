@@ -1,4 +1,4 @@
-# How to show Hydrogen bonds in Pymol
+# How to show Hydrogen bonds in Pymol 
 
 1. Install [PyMOL](https://pymol.org/2/)
 2. Load the receptor and ligand PDB files using the `load` command and assign them to objects called "receptor" and "ligand", respectively.
